@@ -17,8 +17,7 @@ namespace Day_3
     {
         static void Main()
         {
-            try
-            {
+            try {
                 int num = 10, div = 5;
                 if (div==0)
                 {
