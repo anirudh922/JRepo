@@ -37,6 +37,8 @@ namespace Day_3
                 Console.WriteLine("X is {0} || Y is {1}", x, y);
 
             }
+            
+       }
 
             /* Generic Constraint
              * where T: Struct //value type
@@ -44,7 +46,7 @@ namespace Day_3
              * where t:new  //default constraint
              * where t: <interface name>
              */
-            }
+             
             class Student<T> where T : struct
             {
 
