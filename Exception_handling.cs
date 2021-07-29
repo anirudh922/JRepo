@@ -20,7 +20,14 @@ namespace Day_3
             try
             {
                 int num = 10, div = 5;
-                num = num / div;
+                if (div==0)
+                {
+                    throw new DivideByZeroException();
+                }
+                else 
+                {
+                    num=num/div;
+                }
 
                 Console.WriteLine(num);
 
