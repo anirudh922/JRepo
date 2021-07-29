@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Day_3</RootNamespace>
+    <StartupObject>Day_3.Exception_handling</StartupObject>
   </PropertyGroup>
 
 </Project>
