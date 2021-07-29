@@ -65,7 +65,7 @@ namespace Day_3
 
                     //method syntax
 
-                    var m2 = Marks.Where(mark => mark <=100 && mark >70)
+                    //var m2 = Marks.Where(mark => mark <=100 && mark >70)
                     var r2 = (from m in Marks
                               where m > 70 && m <= 100
                               select m).Count();
