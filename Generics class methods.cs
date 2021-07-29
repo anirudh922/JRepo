@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Day_3
 {
-    class Generics_class_methods
-    {
         //Generic class
         class Sample<T>
         {
@@ -46,7 +44,7 @@ namespace Day_3
              * where t:new  //default constraint
              * where t: <interface name>
              */
-
+            }
             class Student<T> where T : struct
             {
 
@@ -68,12 +66,4 @@ namespace Day_3
 
                 }
             }
-
-
-
-        }
-
-
-
-    }
 }
