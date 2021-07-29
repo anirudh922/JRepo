@@ -15,7 +15,7 @@ namespace Day_3
     }
     class Exception_handling
     {
-        static void /Main()
+        static void Main()
         {
             try {
                 int num = 10, div = 5;
